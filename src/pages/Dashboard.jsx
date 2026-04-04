@@ -16,8 +16,8 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className="grid text-white grid-cols-3 gap-4 ">
-        <div className="cursor-pointer bg-gradient-to-r from-green-400  to-blue-500 hover:scale-105 transition duration-200 p-4 rounded-xl shadow">
+      <div className="grid text-white grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 ">
+        <div className="cursor-pointer bg-gradient-to-r from-green-400 to-blue-500 hover:scale-105 transition duration-200 p-3 md:p-4 rounded-xl shadow col-span-1">
           <h3 className="text-[20px] font-bold">Total Balance</h3>
           <p className="text-[12px] mt-4 mb-2">Current value</p>
           <p className="text-xl font-bold">₹{summary.balance}</p>
@@ -37,7 +37,7 @@ const Dashboard = () => {
           <p className="text-xl font-bold ">₹{summary.expense}</p>
         </div>
    
-        <div className="col-span-3 grid grid-cols-1 md:grid-cols-2 gap-5 mt-10 items-stretch">
+  <div className="col-span-1 sm:col-span-2 lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 mt-4 md:mt-10 items-stretch">
           <div className="bg-white p-4 rounded-xl h-full flex flex-col">
             <h2 className="text-lg font-semibold mb-4 text-black">
               Balance Trend

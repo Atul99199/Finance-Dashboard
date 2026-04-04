@@ -9,7 +9,7 @@ import Insights from "./pages/Insights";
 
 const App = () => {
   return (
-    <div className="grid grid-cols-[20%_80%] gap-2 m-6">
+  <div className="grid grid-cols-1 md:grid-cols-[25%_75%] lg:grid-cols-[20%_80%] gap-2 m-4 md:m-6">
       
       <LeftSideBar />
 

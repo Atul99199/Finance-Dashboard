@@ -9,17 +9,17 @@ import { NavLink } from "react-router-dom";
 
 const LeftSideBar = () => {
   return (
-    <div className="bg-gradient-to-b from-[#5d25f0] to-[#6d28ff] h-[95vh] rounded-l-xl p-5">
-      <div className="flex gap-2  tracking-[3px]">
-        <img src={financeicon} alt="" className="w-6 h-6" />
-        <h1 className="text-white text-[20px] font-bold">Finnance</h1>
+  <div className="bg-gradient-to-b from-[#5d25f0] to-[#6d28ff] h-auto md:h-[95vh] md:rounded-l-xl rounded-b-xl md:rounded-b-none p-3 md:p-5 md:w-full lg:w-auto">
+      <div className="flex gap-2 tracking-[3px] md:tracking-[1px] items-center">
+        <img src={financeicon} alt="" className="w-6 h-6 flex-shrink-0" />
+        <h1 className="text-white text-[20px] md:text-[18px] font-bold truncate">Finnance</h1>
       </div>
-      <h4 className="text-[#dee0e3] text-[15px] mt-[35px]">Menu</h4>
-      <div className="mt-5 ml-4 space-y-3">
+  <h4 className="text-[#dee0e3] text-[15px] mt-4 md:mt-[35px]">Menu</h4>
+  <div className="mt-3 md:mt-5 ml-0 md:ml-4 space-y-2 md:space-y-3">
         <NavLink to="/" className="block">
           {({ isActive }) => (
             <div
-              className={`flex gap-4 p-3 rounded-3xl cursor-pointer transition group ${
+              className={`flex gap-4 p-3 md:p-2 rounded-3xl cursor-pointer transition group items-center min-w-0 ${
                 isActive
                   ? "bg-white text-black"
                   : "text-white hover:bg-white hover:text-black"
@@ -37,14 +37,14 @@ const LeftSideBar = () => {
                 className={`${isActive ? "block" : "hidden group-hover:block"}`}
                 alt=""
               />
-              <h1>Dashboard</h1>
+              <h1 className="truncate">Dashboard</h1>
             </div>
           )}
         </NavLink>
         <NavLink to="/transactions" className="block">
           {({ isActive }) => (
             <div
-              className={`flex gap-4 cursor-pointer p-3 rounded-3xl transition group ${
+              className={`flex gap-4 cursor-pointer p-3 md:p-2 rounded-3xl transition group items-center min-w-0 ${
                 isActive
                   ? "bg-white text-black"
                   : "text-white hover:bg-white hover:text-black"
@@ -62,14 +62,14 @@ const LeftSideBar = () => {
                 className={`${isActive ? "block" : "hidden group-hover:block"}`}
                 alt=""
               />
-              <h1>Transaction</h1>
+              <h1 className="truncate">Transaction</h1>
             </div>
           )}
         </NavLink>
         <NavLink to="/insights" className="block">
           {({ isActive }) => (
             <div
-              className={`flex gap-4 cursor-pointer p-3 rounded-3xl transition group ${
+              className={`flex gap-4 cursor-pointer p-3 md:p-2 rounded-3xl transition group items-center min-w-0 ${
                 isActive
                   ? "bg-white text-black"
                   : "text-white hover:bg-white hover:text-black"
@@ -87,7 +87,7 @@ const LeftSideBar = () => {
                 className={`${isActive ? "block" : "hidden group-hover:block"}`}
                 alt=""
               />
-              <h1>Insights</h1>
+              <h1 className="truncate">Insights</h1>
             </div>
           )}
         </NavLink>
