@@ -128,8 +128,8 @@ src/
 ## Setup Instructions
 
 1. Clone the repository:
-```bash
-git clone <your-repo-link>
+```
+git clone https://github.com/Atul99199/Finance-Dashboard.git
 cd finance-dashboard
 npm install
 npm run dev
