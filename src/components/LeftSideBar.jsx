@@ -15,7 +15,7 @@ const LeftSideBar = () => {
       <div className="flex gap-2 tracking-[3px] md:tracking-[1px] items-center">
         <img src={financeicon} alt="" className="w-6 h-6 flex-shrink-0" />
         <h1 className="text-white text-[20px] md:text-[18px] font-bold truncate">
-          Finnance
+          Finance
         </h1>
       </div>
       <h4 className="text-[#dee0e3] text-[15px] mt-4 md:mt-[35px]">Menu</h4>
