@@ -7,7 +7,7 @@ This project demonstrates frontend development skills including UI design, state
 
 ##  Features
 
-### 📊 Dashboard Overview
+### Dashboard Overview
 - Summary cards:
   - Total Balance
   - Income
@@ -18,7 +18,7 @@ This project demonstrates frontend development skills including UI design, state
 
 ---
 
-### 📋 Transactions Section
+### Transactions Section
 - View all transactions with:
   - Date
   - Amount
@@ -26,13 +26,13 @@ This project demonstrates frontend development skills including UI design, state
   - Type (Income / Expense)
 
 - Functionalities:
-  - 🔍 Search by category
-  - 🎯 Filter by type (Income / Expense)
-  - 🔃 Sort (Latest / Amount)
+  - Search by category
+  - Filter by type (Income / Expense)
+  - Sort (Latest / Amount)
 
 ---
 
-### 👥 Role-Based UI
+### Role-Based UI
 - **Viewer**
   - Can only view transactions
 
@@ -44,7 +44,7 @@ This project demonstrates frontend development skills including UI design, state
 
 ---
 
-### ➕ Add / ✏️ Edit Transaction
+### Add / Edit Transaction
 - Modal-based form
 - Fields:
   - Date
@@ -55,7 +55,7 @@ This project demonstrates frontend development skills including UI design, state
 
 ---
 
-### 📈 Insights Section
+### Insights Section
 - Highest spending category
 - Monthly income vs expense comparison
 - Smart financial insight:
@@ -64,7 +64,7 @@ This project demonstrates frontend development skills including UI design, state
 
 ---
 
-### 💾 State Management
+### State Management
 - Implemented using **React Context API**
 - Handles:
   - Transactions data
@@ -73,13 +73,13 @@ This project demonstrates frontend development skills including UI design, state
 
 ---
 
-### 💽 Data Persistence
+### Data Persistence
 - Uses **localStorage**
 - Data remains after page refresh
 
 ---
 
-## 🎨 UI / UX Highlights
+## UI / UX Highlights
 - Clean and modern design
 - Responsive layout
 - Gradient cards and smooth hover effects
@@ -87,15 +87,15 @@ This project demonstrates frontend development skills including UI design, state
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- ⚛️ React.js
-- 🎨 Tailwind CSS
-- 🧠 Context API (State Management)
+- React.js
+- Tailwind CSS
+- Context API (State Management)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 src/
 │── components/
@@ -125,7 +125,7 @@ src/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
 ```bash
