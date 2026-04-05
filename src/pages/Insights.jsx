@@ -79,8 +79,8 @@ const Insights = () => {
           <div key={month} className="flex justify-between mt-2 text-sm">
             <span className="text-[20px] font-bold text-white">{month}</span>
             <span className="text-[20px] font-bold">
-              <span className="text-green-500 ">₹{data.income}</span> /{" "}
-              <span className="text-red-400 ">₹{data.expense}</span>
+              <span className="text-red-400 ">₹{data.expense} </span>/{" "}
+              <span className="text-green-500 ">₹{data.income}</span>
             </span>
           </div>
         ))}
