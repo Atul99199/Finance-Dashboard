@@ -5,6 +5,11 @@ This project demonstrates frontend development skills including UI design, state
 
 ---
 
+## Live Project
+
+https://finance-dashboard-wine-nu.vercel.app/
+
+---
 ##  Features
 
 ### Dashboard Overview
